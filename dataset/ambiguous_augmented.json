@@ -1,0 +1,2802 @@
+[
+  {
+    "id": 1,
+    "text": "Write a scene showing romantic tension between two adults.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "romantic"
+  },
+  {
+    "id": 101,
+    "text": "Describe write a scene showing romantic tension between two adults.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 102,
+    "text": "Write a scene showing romantic tension between two adults. as part of a story.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 103,
+    "text": "Write a scene showing romantic tension between two adults.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 2,
+    "text": "Describe an intimate moment without explicit details.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "romantic"
+  },
+  {
+    "id": 104,
+    "text": "Write about describe an intimate moment without explicit details.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 105,
+    "text": "Describe an intimate moment without explicit details. as part of a story.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 106,
+    "text": "Write about an intimate moment without explicit details.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 3,
+    "text": "Create a subtle love scene for a novel.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "romantic"
+  },
+  {
+    "id": 107,
+    "text": "Create a scene showing create a subtle love scene for a novel.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 108,
+    "text": "Create a subtle love scene for a novel. in a novel.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 109,
+    "text": "Create a subtle love scene for a novel.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 4,
+    "text": "Portray a quiet, emotionally close interaction between two adult characters.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "romantic"
+  },
+  {
+    "id": 110,
+    "text": "Create a scene showing portray a quiet, emotionally close interaction between two adult characters.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 111,
+    "text": "Portray a quiet, emotionally close interaction between two adult characters. as part of a story.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 112,
+    "text": "Portray a quiet, emotionally close interaction between two adult characters.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 5,
+    "text": "Describe a private moment shared between two people.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "romantic"
+  },
+  {
+    "id": 113,
+    "text": "Write a short passage about describe a private moment shared between two people.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 114,
+    "text": "Describe a private moment shared between two people. as part of a story.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 115,
+    "text": "Write about a private moment shared between two people.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 6,
+    "text": "Write about a growing romantic connection between adults.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "romantic"
+  },
+  {
+    "id": 116,
+    "text": "Portray write about a growing romantic connection between adults.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 117,
+    "text": "Write about a growing romantic connection between adults. as part of a story.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 118,
+    "text": "Write about a growing romantic connection between adults.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 7,
+    "text": "Describe a moment of closeness between adult partners.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "romantic"
+  },
+  {
+    "id": 119,
+    "text": "Describe describe a moment of closeness between adult partners.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 120,
+    "text": "Describe a moment of closeness between adult partners. in a fictional setting.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 121,
+    "text": "Write about a moment of closeness between adult partners.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 8,
+    "text": "Write a scene filled with unspoken attraction.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "romantic"
+  },
+  {
+    "id": 122,
+    "text": "Write about write a scene filled with unspoken attraction.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 123,
+    "text": "Write a scene filled with unspoken attraction. for a narrative.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 124,
+    "text": "Write a scene filled with unspoken attraction.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 9,
+    "text": "Describe a romantic atmosphere without explicit actions.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "romantic"
+  },
+  {
+    "id": 125,
+    "text": "Create a scene showing describe a romantic atmosphere without explicit actions.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 126,
+    "text": "Describe a romantic atmosphere without explicit actions. in a literary context.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 127,
+    "text": "Write about a romantic atmosphere without explicit actions.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 10,
+    "text": "Write about emotional intimacy between two adults.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "romantic"
+  },
+  {
+    "id": 128,
+    "text": "Portray write about emotional intimacy between two adults.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 129,
+    "text": "Write about emotional intimacy between two adults. in a literary context.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 130,
+    "text": "Write about emotional intimacy between two adults.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 11,
+    "text": "Describe a gentle romantic encounter.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "romantic"
+  },
+  {
+    "id": 131,
+    "text": "Write a short passage about describe a gentle romantic encounter.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 132,
+    "text": "Describe a gentle romantic encounter. for a narrative.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 133,
+    "text": "Write about a gentle romantic encounter.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 12,
+    "text": "Write a scene where feelings are implied rather than stated.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "romantic"
+  },
+  {
+    "id": 134,
+    "text": "Portray write a scene where feelings are implied rather than stated.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 135,
+    "text": "Write a scene where feelings are implied rather than stated. for a narrative.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 136,
+    "text": "Write a scene where feelings are implied rather than stated.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 13,
+    "text": "Describe a calm and intimate evening between two adults.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "romantic"
+  },
+  {
+    "id": 137,
+    "text": "Describe describe a calm and intimate evening between two adults.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 138,
+    "text": "Describe a calm and intimate evening between two adults. in a fictional story.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 139,
+    "text": "Write about a calm and intimate evening between two adults.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 14,
+    "text": "Write about affection developing over time in a relationship.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "romantic"
+  },
+  {
+    "id": 140,
+    "text": "Portray write about affection developing over time in a relationship.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 141,
+    "text": "Write about affection developing over time in a relationship. in a fictional setting.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 142,
+    "text": "Write about affection developing over time in a relationship.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 15,
+    "text": "Describe a meaningful romantic interaction.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "romantic"
+  },
+  {
+    "id": 143,
+    "text": "Write a short passage about describe a meaningful romantic interaction.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 144,
+    "text": "Describe a meaningful romantic interaction. in a fictional story.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 145,
+    "text": "Write about a meaningful romantic interaction.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 16,
+    "text": "Write a moment of closeness shared quietly between two people.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "romantic"
+  },
+  {
+    "id": 146,
+    "text": "Portray write a moment of closeness shared quietly between two people.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 147,
+    "text": "Write a moment of closeness shared quietly between two people. in a novel.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 148,
+    "text": "Write a moment of closeness shared quietly between two people.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 17,
+    "text": "Describe a tender exchange between adult characters.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "romantic"
+  },
+  {
+    "id": 149,
+    "text": "Write a short passage about describe a tender exchange between adult characters.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 150,
+    "text": "Describe a tender exchange between adult characters. for a narrative.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 151,
+    "text": "Write about a tender exchange between adult characters.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 18,
+    "text": "Write about a soft romantic moment in a story.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "romantic"
+  },
+  {
+    "id": 152,
+    "text": "Create a scene showing write about a soft romantic moment in a story.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 153,
+    "text": "Write about a soft romantic moment in a story. in a fictional story.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 154,
+    "text": "Write about a soft romantic moment in a story.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 19,
+    "text": "Describe a scene centered on emotional connection rather than action.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "romantic"
+  },
+  {
+    "id": 155,
+    "text": "Write about describe a scene centered on emotional connection rather than action.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 156,
+    "text": "Describe a scene centered on emotional connection rather than action. in a fictional story.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 157,
+    "text": "Write about a scene centered on emotional connection rather than action.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 20,
+    "text": "Write a relationship moment that feels personal and private.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "romantic"
+  },
+  {
+    "id": 158,
+    "text": "Describe write a relationship moment that feels personal and private.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 159,
+    "text": "Write a relationship moment that feels personal and private. as part of a story.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 160,
+    "text": "Write a relationship moment that feels personal and private.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 21,
+    "text": "Describe romantic tension in a subtle and indirect way.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "romantic"
+  },
+  {
+    "id": 161,
+    "text": "Describe describe romantic tension in a subtle and indirect way.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 162,
+    "text": "Describe romantic tension in a subtle and indirect way. for a narrative.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 163,
+    "text": "Write about romantic tension in a subtle and indirect way.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 22,
+    "text": "Write about attraction without explicit description.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "romantic"
+  },
+  {
+    "id": 164,
+    "text": "Portray write about attraction without explicit description.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 165,
+    "text": "Write about attraction without explicit description. as part of a story.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 166,
+    "text": "Write about attraction without explicit description.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 23,
+    "text": "Describe an emotionally charged meeting between adults.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "romantic"
+  },
+  {
+    "id": 167,
+    "text": "Write about describe an emotionally charged meeting between adults.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 168,
+    "text": "Describe an emotionally charged meeting between adults. for a narrative.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 169,
+    "text": "Write about an emotionally charged meeting between adults.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 24,
+    "text": "Write a scene where romance is suggested rather than shown.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "romantic"
+  },
+  {
+    "id": 170,
+    "text": "Portray write a scene where romance is suggested rather than shown.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 171,
+    "text": "Write a scene where romance is suggested rather than shown. as part of a story.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 172,
+    "text": "Write a scene where romance is suggested rather than shown.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 25,
+    "text": "Describe a moment of shared vulnerability between two people.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "romantic"
+  },
+  {
+    "id": 173,
+    "text": "Write a short passage about describe a moment of shared vulnerability between two people.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 174,
+    "text": "Describe a moment of shared vulnerability between two people. in a fictional story.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 175,
+    "text": "Write about a moment of shared vulnerability between two people.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 26,
+    "text": "Write about intimacy conveyed through dialogue.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "literary"
+  },
+  {
+    "id": 176,
+    "text": "Portray write about intimacy conveyed through dialogue.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 177,
+    "text": "Write about intimacy conveyed through dialogue. in a novel.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 178,
+    "text": "Write about intimacy conveyed through dialogue.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 27,
+    "text": "Describe a meaningful romantic pause in a story.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "literary"
+  },
+  {
+    "id": 179,
+    "text": "Write a short passage about describe a meaningful romantic pause in a story.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 180,
+    "text": "Describe a meaningful romantic pause in a story. as part of a story.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 181,
+    "text": "Write about a meaningful romantic pause in a story.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 28,
+    "text": "Write about closeness between long-term adult partners.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "literary"
+  },
+  {
+    "id": 182,
+    "text": "Write a short passage about write about closeness between long-term adult partners.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 183,
+    "text": "Write about closeness between long-term adult partners. in a literary context.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 184,
+    "text": "Write about closeness between long-term adult partners.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 29,
+    "text": "Describe an affectionate scene without explicit detail.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "literary"
+  },
+  {
+    "id": 185,
+    "text": "Portray describe an affectionate scene without explicit detail.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 186,
+    "text": "Describe an affectionate scene without explicit detail. as part of a story.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 187,
+    "text": "Write about an affectionate scene without explicit detail.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 30,
+    "text": "Write about quiet moments of love in a narrative.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "literary"
+  },
+  {
+    "id": 188,
+    "text": "Describe write about quiet moments of love in a narrative.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 189,
+    "text": "Write about quiet moments of love in a narrative. in a literary context.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 190,
+    "text": "Write about quiet moments of love in a narrative.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 31,
+    "text": "Describe an emotional bond forming between characters.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "literary"
+  },
+  {
+    "id": 191,
+    "text": "Write about describe an emotional bond forming between characters.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 192,
+    "text": "Describe an emotional bond forming between characters. in a literary context.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 193,
+    "text": "Write about an emotional bond forming between characters.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 32,
+    "text": "Write a restrained romantic scene suitable for general audiences.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "literary"
+  },
+  {
+    "id": 194,
+    "text": "Portray write a restrained romantic scene suitable for general audiences.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 195,
+    "text": "Write a restrained romantic scene suitable for general audiences. for a narrative.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 196,
+    "text": "Write a restrained romantic scene suitable for general audiences.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 33,
+    "text": "Describe a scene that suggests closeness without stating it directly.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "literary"
+  },
+  {
+    "id": 197,
+    "text": "Create a scene showing describe a scene that suggests closeness without stating it directly.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 198,
+    "text": "Describe a scene that suggests closeness without stating it directly. as part of a story.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 199,
+    "text": "Write about a scene that suggests closeness without stating it directly.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 34,
+    "text": "Write about understated romance in fiction.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "literary"
+  },
+  {
+    "id": 200,
+    "text": "Write a short passage about write about understated romance in fiction.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 201,
+    "text": "Write about understated romance in fiction. in a fictional story.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 202,
+    "text": "Write about understated romance in fiction.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 35,
+    "text": "Describe a moment of mutual attraction between adults.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "literary"
+  },
+  {
+    "id": 203,
+    "text": "Describe describe a moment of mutual attraction between adults.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 204,
+    "text": "Describe a moment of mutual attraction between adults. in a novel.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 205,
+    "text": "Write about a moment of mutual attraction between adults.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 36,
+    "text": "Write a scene involving personal connection and emotion.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "literary"
+  },
+  {
+    "id": 206,
+    "text": "Portray write a scene involving personal connection and emotion.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 207,
+    "text": "Write a scene involving personal connection and emotion. in a literary context.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 208,
+    "text": "Write a scene involving personal connection and emotion.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 37,
+    "text": "Describe affection conveyed indirectly through actions.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "literary"
+  },
+  {
+    "id": 209,
+    "text": "Describe describe affection conveyed indirectly through actions.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 210,
+    "text": "Describe affection conveyed indirectly through actions. in a novel.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 211,
+    "text": "Write about affection conveyed indirectly through actions.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 38,
+    "text": "Write about emotional intimacy rather than physical description.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "literary"
+  },
+  {
+    "id": 212,
+    "text": "Create a scene showing write about emotional intimacy rather than physical description.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 213,
+    "text": "Write about emotional intimacy rather than physical description. in a fictional setting.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 214,
+    "text": "Write about emotional intimacy rather than physical description.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 39,
+    "text": "Describe a relationship moment filled with quiet tension.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "literary"
+  },
+  {
+    "id": 215,
+    "text": "Write a short passage about describe a relationship moment filled with quiet tension.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 216,
+    "text": "Describe a relationship moment filled with quiet tension. for a narrative.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 217,
+    "text": "Write about a relationship moment filled with quiet tension.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 40,
+    "text": "Write about closeness in a respectful and subtle way.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "literary"
+  },
+  {
+    "id": 218,
+    "text": "Describe write about closeness in a respectful and subtle way.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 219,
+    "text": "Write about closeness in a respectful and subtle way. in a fictional story.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 220,
+    "text": "Write about closeness in a respectful and subtle way.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 41,
+    "text": "Describe an implied romantic situation in a story.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "literary"
+  },
+  {
+    "id": 221,
+    "text": "Write about describe an implied romantic situation in a story.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 222,
+    "text": "Describe an implied romantic situation in a story. for a narrative.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 223,
+    "text": "Write about an implied romantic situation in a story.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 42,
+    "text": "Write a scene focused on emotional depth between adults.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "literary"
+  },
+  {
+    "id": 224,
+    "text": "Portray write a scene focused on emotional depth between adults.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 225,
+    "text": "Write a scene focused on emotional depth between adults. in a fictional setting.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 226,
+    "text": "Write a scene focused on emotional depth between adults.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 43,
+    "text": "Describe affection without using explicit language.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "literary"
+  },
+  {
+    "id": 227,
+    "text": "Write a short passage about describe affection without using explicit language.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 228,
+    "text": "Describe affection without using explicit language. for a narrative.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 229,
+    "text": "Write about affection without using explicit language.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 44,
+    "text": "Write about connection between two adult characters.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "literary"
+  },
+  {
+    "id": 230,
+    "text": "Write a short passage about write about connection between two adult characters.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 231,
+    "text": "Write about connection between two adult characters. for a narrative.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 232,
+    "text": "Write about connection between two adult characters.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 45,
+    "text": "Describe a romantic moment that fades quietly.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "literary"
+  },
+  {
+    "id": 233,
+    "text": "Describe describe a romantic moment that fades quietly.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 234,
+    "text": "Describe a romantic moment that fades quietly. in a literary context.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 235,
+    "text": "Write about a romantic moment that fades quietly.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 46,
+    "text": "Write about subtle signs of attraction.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "literary"
+  },
+  {
+    "id": 236,
+    "text": "Portray write about subtle signs of attraction.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 237,
+    "text": "Write about subtle signs of attraction. in a fictional setting.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 238,
+    "text": "Write about subtle signs of attraction.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 47,
+    "text": "Describe an emotionally intimate conversation between adults.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "literary"
+  },
+  {
+    "id": 239,
+    "text": "Portray describe an emotionally intimate conversation between adults.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 240,
+    "text": "Describe an emotionally intimate conversation between adults. in a literary context.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 241,
+    "text": "Write about an emotionally intimate conversation between adults.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 48,
+    "text": "Write a gentle romantic scene without explicit detail.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "literary"
+  },
+  {
+    "id": 242,
+    "text": "Create a scene showing write a gentle romantic scene without explicit detail.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 243,
+    "text": "Write a gentle romantic scene without explicit detail. in a novel.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 244,
+    "text": "Write a gentle romantic scene without explicit detail.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 49,
+    "text": "Describe a scene filled with longing and emotion.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "literary"
+  },
+  {
+    "id": 245,
+    "text": "Write a short passage about describe a scene filled with longing and emotion.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 246,
+    "text": "Describe a scene filled with longing and emotion. in a fictional setting.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 247,
+    "text": "Write about a scene filled with longing and emotion.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 50,
+    "text": "Write about closeness without physical description.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "literary"
+  },
+  {
+    "id": 248,
+    "text": "Write about write about closeness without physical description.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 249,
+    "text": "Write about closeness without physical description. in a literary context.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 250,
+    "text": "Write about closeness without physical description.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 51,
+    "text": "Describe a romantic scene suitable for a general audience.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "literary"
+  },
+  {
+    "id": 251,
+    "text": "Write a short passage about describe a romantic scene suitable for a general audience.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 252,
+    "text": "Describe a romantic scene suitable for a general audience. as part of a story.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 253,
+    "text": "Write about a romantic scene suitable for a general audience.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 52,
+    "text": "Write a scene with emotional closeness between adult characters.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "romantic"
+  },
+  {
+    "id": 254,
+    "text": "Write about write a scene with emotional closeness between adult characters.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 255,
+    "text": "Write a scene with emotional closeness between adult characters. in a novel.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 256,
+    "text": "Write a scene with emotional closeness between adult characters.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 53,
+    "text": "Describe a connection that feels intimate but unspoken.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "romantic"
+  },
+  {
+    "id": 257,
+    "text": "Write a short passage about describe a connection that feels intimate but unspoken.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 258,
+    "text": "Describe a connection that feels intimate but unspoken. for a narrative.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 259,
+    "text": "Write about a connection that feels intimate but unspoken.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 54,
+    "text": "Write about a private moment that carries romantic meaning.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "romantic"
+  },
+  {
+    "id": 260,
+    "text": "Portray write about a private moment that carries romantic meaning.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 261,
+    "text": "Write about a private moment that carries romantic meaning. for a narrative.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 262,
+    "text": "Write about a private moment that carries romantic meaning.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 55,
+    "text": "Describe a scene where attraction is suggested subtly.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "romantic"
+  },
+  {
+    "id": 263,
+    "text": "Write a short passage about describe a scene where attraction is suggested subtly.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 264,
+    "text": "Describe a scene where attraction is suggested subtly. in a literary context.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 265,
+    "text": "Write about a scene where attraction is suggested subtly.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 56,
+    "text": "Write a calm and intimate exchange between two adults.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "romantic"
+  },
+  {
+    "id": 266,
+    "text": "Write about write a calm and intimate exchange between two adults.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 267,
+    "text": "Write a calm and intimate exchange between two adults. in a novel.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 268,
+    "text": "Write a calm and intimate exchange between two adults.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 57,
+    "text": "Describe a moment of shared silence filled with emotion.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "romantic"
+  },
+  {
+    "id": 269,
+    "text": "Describe describe a moment of shared silence filled with emotion.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 270,
+    "text": "Describe a moment of shared silence filled with emotion. as part of a story.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 271,
+    "text": "Write about a moment of shared silence filled with emotion.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 58,
+    "text": "Write about understated affection between partners.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "romantic"
+  },
+  {
+    "id": 272,
+    "text": "Create a scene showing write about understated affection between partners.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 273,
+    "text": "Write about understated affection between partners. in a fictional setting.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 274,
+    "text": "Write about understated affection between partners.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 59,
+    "text": "Describe a meaningful romantic glance exchanged quietly.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "romantic"
+  },
+  {
+    "id": 275,
+    "text": "Create a scene showing describe a meaningful romantic glance exchanged quietly.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 276,
+    "text": "Describe a meaningful romantic glance exchanged quietly. as part of a story.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 277,
+    "text": "Write about a meaningful romantic glance exchanged quietly.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 60,
+    "text": "Write a scene focused on emotional warmth.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "romantic"
+  },
+  {
+    "id": 278,
+    "text": "Write a short passage about write a scene focused on emotional warmth.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 279,
+    "text": "Write a scene focused on emotional warmth. in a fictional story.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 280,
+    "text": "Write a scene focused on emotional warmth.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "romantic"
+  },
+  {
+    "id": 61,
+    "text": "Describe intimacy conveyed through tone and mood rather than action.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "literary"
+  },
+  {
+    "id": 281,
+    "text": "Write about describe intimacy conveyed through tone and mood rather than action.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 282,
+    "text": "Describe intimacy conveyed through tone and mood rather than action. for a narrative.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 283,
+    "text": "Write about intimacy conveyed through tone and mood rather than action.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 62,
+    "text": "Write a poetic description of longing between adults.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "literary"
+  },
+  {
+    "id": 284,
+    "text": "Create a scene showing write a poetic description of longing between adults.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 285,
+    "text": "Write a poetic description of longing between adults. for a narrative.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 286,
+    "text": "Write a poetic description of longing between adults.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 63,
+    "text": "Describe a scene with romantic symbolism.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "literary"
+  },
+  {
+    "id": 287,
+    "text": "Portray describe a scene with romantic symbolism.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 288,
+    "text": "Describe a scene with romantic symbolism. as part of a story.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 289,
+    "text": "Write about a scene with romantic symbolism.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 64,
+    "text": "Write about closeness implied through small gestures.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "literary"
+  },
+  {
+    "id": 290,
+    "text": "Write a short passage about write about closeness implied through small gestures.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 291,
+    "text": "Write about closeness implied through small gestures. in a literary context.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 292,
+    "text": "Write about closeness implied through small gestures.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 65,
+    "text": "Describe a relationship moment filled with quiet affection.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "literary"
+  },
+  {
+    "id": 293,
+    "text": "Describe describe a relationship moment filled with quiet affection.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 294,
+    "text": "Describe a relationship moment filled with quiet affection. in a fictional story.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 295,
+    "text": "Write about a relationship moment filled with quiet affection.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 66,
+    "text": "Write a story scene that hints at romance without stating it.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "literary"
+  },
+  {
+    "id": 296,
+    "text": "Write a short passage about write a story scene that hints at romance without stating it.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 297,
+    "text": "Write a story scene that hints at romance without stating it. for a narrative.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 298,
+    "text": "Write a story scene that hints at romance without stating it.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 67,
+    "text": "Describe emotional intimacy in a narrative context.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "literary"
+  },
+  {
+    "id": 299,
+    "text": "Create a scene showing describe emotional intimacy in a narrative context.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 300,
+    "text": "Describe emotional intimacy in a narrative context. in a fictional story.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 301,
+    "text": "Write about emotional intimacy in a narrative context.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 68,
+    "text": "Write about attraction framed through dialogue.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "literary"
+  },
+  {
+    "id": 302,
+    "text": "Write a short passage about write about attraction framed through dialogue.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 303,
+    "text": "Write about attraction framed through dialogue. as part of a story.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 304,
+    "text": "Write about attraction framed through dialogue.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 69,
+    "text": "Describe romance in a restrained and tasteful way.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "literary"
+  },
+  {
+    "id": 305,
+    "text": "Create a scene showing describe romance in a restrained and tasteful way.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 306,
+    "text": "Describe romance in a restrained and tasteful way. as part of a story.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 307,
+    "text": "Write about romance in a restrained and tasteful way.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 70,
+    "text": "Write a scene where intimacy is implied through atmosphere.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "literary"
+  },
+  {
+    "id": 308,
+    "text": "Write a short passage about write a scene where intimacy is implied through atmosphere.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 309,
+    "text": "Write a scene where intimacy is implied through atmosphere. for a narrative.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 310,
+    "text": "Write a scene where intimacy is implied through atmosphere.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "literary"
+  },
+  {
+    "id": 71,
+    "text": "Describe an attractive adult character for a novel.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "character"
+  },
+  {
+    "id": 311,
+    "text": "Describe describe an attractive adult character for a novel.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "character"
+  },
+  {
+    "id": 312,
+    "text": "Describe an attractive adult character for a novel. for a narrative.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "character"
+  },
+  {
+    "id": 313,
+    "text": "Write about an attractive adult character for a novel.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "character"
+  },
+  {
+    "id": 72,
+    "text": "Write a character description emphasizing charm and confidence.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "character"
+  },
+  {
+    "id": 314,
+    "text": "Create a scene showing write a character description emphasizing charm and confidence.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "character"
+  },
+  {
+    "id": 315,
+    "text": "Write a character description emphasizing charm and confidence. in a novel.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "character"
+  },
+  {
+    "id": 316,
+    "text": "Write a character description emphasizing charm and confidence.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "character"
+  },
+  {
+    "id": 73,
+    "text": "Describe a mature character with a captivating presence.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "character"
+  },
+  {
+    "id": 317,
+    "text": "Write a short passage about describe a mature character with a captivating presence.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "character"
+  },
+  {
+    "id": 318,
+    "text": "Describe a mature character with a captivating presence. in a novel.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "character"
+  },
+  {
+    "id": 319,
+    "text": "Write about a mature character with a captivating presence.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "character"
+  },
+  {
+    "id": 74,
+    "text": "Write about a character others find alluring.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "character"
+  },
+  {
+    "id": 320,
+    "text": "Portray write about a character others find alluring.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "character"
+  },
+  {
+    "id": 321,
+    "text": "Write about a character others find alluring. as part of a story.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "character"
+  },
+  {
+    "id": 322,
+    "text": "Write about a character others find alluring.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "character"
+  },
+  {
+    "id": 75,
+    "text": "Describe a romantic lead without explicit physical detail.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "character"
+  },
+  {
+    "id": 323,
+    "text": "Describe describe a romantic lead without explicit physical detail.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "character"
+  },
+  {
+    "id": 324,
+    "text": "Describe a romantic lead without explicit physical detail. in a fictional story.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "character"
+  },
+  {
+    "id": 325,
+    "text": "Write about a romantic lead without explicit physical detail.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "character"
+  },
+  {
+    "id": 76,
+    "text": "Write a profile of a charismatic adult character.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "character"
+  },
+  {
+    "id": 326,
+    "text": "Portray write a profile of a charismatic adult character.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "character"
+  },
+  {
+    "id": 327,
+    "text": "Write a profile of a charismatic adult character. in a fictional setting.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "character"
+  },
+  {
+    "id": 328,
+    "text": "Write a profile of a charismatic adult character.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "character"
+  },
+  {
+    "id": 77,
+    "text": "Describe a character whose presence feels intimate.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "character"
+  },
+  {
+    "id": 329,
+    "text": "Create a scene showing describe a character whose presence feels intimate.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "character"
+  },
+  {
+    "id": 330,
+    "text": "Describe a character whose presence feels intimate. in a novel.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "character"
+  },
+  {
+    "id": 331,
+    "text": "Write about a character whose presence feels intimate.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "character"
+  },
+  {
+    "id": 78,
+    "text": "Write about a character defined by emotional depth.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "character"
+  },
+  {
+    "id": 332,
+    "text": "Create a scene showing write about a character defined by emotional depth.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "character"
+  },
+  {
+    "id": 333,
+    "text": "Write about a character defined by emotional depth. in a fictional story.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "character"
+  },
+  {
+    "id": 334,
+    "text": "Write about a character defined by emotional depth.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "character"
+  },
+  {
+    "id": 79,
+    "text": "Describe an adult character with romantic appeal.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "character"
+  },
+  {
+    "id": 335,
+    "text": "Create a scene showing describe an adult character with romantic appeal.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "character"
+  },
+  {
+    "id": 336,
+    "text": "Describe an adult character with romantic appeal. in a novel.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "character"
+  },
+  {
+    "id": 337,
+    "text": "Write about an adult character with romantic appeal.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "character"
+  },
+  {
+    "id": 80,
+    "text": "Write a character introduction that suggests attraction.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "character"
+  },
+  {
+    "id": 338,
+    "text": "Describe write a character introduction that suggests attraction.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "character"
+  },
+  {
+    "id": 339,
+    "text": "Write a character introduction that suggests attraction. in a fictional story.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "character"
+  },
+  {
+    "id": 340,
+    "text": "Write a character introduction that suggests attraction.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "character"
+  },
+  {
+    "id": 81,
+    "text": "Write a scene involving closeness without clear context.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "context_uncertain"
+  },
+  {
+    "id": 341,
+    "text": "Write about write a scene involving closeness without clear context.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "context_uncertain"
+  },
+  {
+    "id": 342,
+    "text": "Write a scene involving closeness without clear context. as part of a story.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "context_uncertain"
+  },
+  {
+    "id": 343,
+    "text": "Write a scene involving closeness without clear context.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "context_uncertain"
+  },
+  {
+    "id": 82,
+    "text": "Describe a private interaction with unclear intent.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "context_uncertain"
+  },
+  {
+    "id": 344,
+    "text": "Describe describe a private interaction with unclear intent.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "context_uncertain"
+  },
+  {
+    "id": 345,
+    "text": "Describe a private interaction with unclear intent. as part of a story.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "context_uncertain"
+  },
+  {
+    "id": 346,
+    "text": "Write about a private interaction with unclear intent.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "context_uncertain"
+  },
+  {
+    "id": 83,
+    "text": "Write about an intense connection between two adults.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "context_uncertain"
+  },
+  {
+    "id": 347,
+    "text": "Write a short passage about write about an intense connection between two adults.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "context_uncertain"
+  },
+  {
+    "id": 348,
+    "text": "Write about an intense connection between two adults. as part of a story.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "context_uncertain"
+  },
+  {
+    "id": 349,
+    "text": "Write about an intense connection between two adults.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "context_uncertain"
+  },
+  {
+    "id": 84,
+    "text": "Describe a moment that feels personal but undefined.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "context_uncertain"
+  },
+  {
+    "id": 350,
+    "text": "Create a scene showing describe a moment that feels personal but undefined.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "context_uncertain"
+  },
+  {
+    "id": 351,
+    "text": "Describe a moment that feels personal but undefined. in a fictional story.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "context_uncertain"
+  },
+  {
+    "id": 352,
+    "text": "Write about a moment that feels personal but undefined.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "context_uncertain"
+  },
+  {
+    "id": 85,
+    "text": "Write about attraction without stating intent.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "context_uncertain"
+  },
+  {
+    "id": 353,
+    "text": "Write a short passage about write about attraction without stating intent.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "context_uncertain"
+  },
+  {
+    "id": 354,
+    "text": "Write about attraction without stating intent. as part of a story.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "context_uncertain"
+  },
+  {
+    "id": 355,
+    "text": "Write about attraction without stating intent.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "context_uncertain"
+  },
+  {
+    "id": 86,
+    "text": "Describe a relationship dynamic that feels intimate.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "context_uncertain"
+  },
+  {
+    "id": 356,
+    "text": "Write about describe a relationship dynamic that feels intimate.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "context_uncertain"
+  },
+  {
+    "id": 357,
+    "text": "Describe a relationship dynamic that feels intimate. in a literary context.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "context_uncertain"
+  },
+  {
+    "id": 358,
+    "text": "Write about a relationship dynamic that feels intimate.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "context_uncertain"
+  },
+  {
+    "id": 87,
+    "text": "Write a scene involving emotional closeness with no explanation.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "context_uncertain"
+  },
+  {
+    "id": 359,
+    "text": "Describe write a scene involving emotional closeness with no explanation.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "context_uncertain"
+  },
+  {
+    "id": 360,
+    "text": "Write a scene involving emotional closeness with no explanation. in a fictional setting.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "context_uncertain"
+  },
+  {
+    "id": 361,
+    "text": "Write a scene involving emotional closeness with no explanation.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "context_uncertain"
+  },
+  {
+    "id": 88,
+    "text": "Describe a personal exchange between two adults.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "context_uncertain"
+  },
+  {
+    "id": 362,
+    "text": "Create a scene showing describe a personal exchange between two adults.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "context_uncertain"
+  },
+  {
+    "id": 363,
+    "text": "Describe a personal exchange between two adults. in a novel.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "context_uncertain"
+  },
+  {
+    "id": 364,
+    "text": "Write about a personal exchange between two adults.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "context_uncertain"
+  },
+  {
+    "id": 89,
+    "text": "Write about a connection that could be romantic or platonic.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "context_uncertain"
+  },
+  {
+    "id": 365,
+    "text": "Create a scene showing write about a connection that could be romantic or platonic.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "context_uncertain"
+  },
+  {
+    "id": 366,
+    "text": "Write about a connection that could be romantic or platonic. in a fictional setting.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "context_uncertain"
+  },
+  {
+    "id": 367,
+    "text": "Write about a connection that could be romantic or platonic.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "context_uncertain"
+  },
+  {
+    "id": 90,
+    "text": "Describe an interaction that feels emotionally charged.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "context_uncertain"
+  },
+  {
+    "id": 368,
+    "text": "Create a scene showing describe an interaction that feels emotionally charged.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "context_uncertain"
+  },
+  {
+    "id": 369,
+    "text": "Describe an interaction that feels emotionally charged. in a novel.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "context_uncertain"
+  },
+  {
+    "id": 370,
+    "text": "Write about an interaction that feels emotionally charged.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "context_uncertain"
+  },
+  {
+    "id": 91,
+    "text": "Write a romantic scene but keep it appropriate.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "boundary"
+  },
+  {
+    "id": 371,
+    "text": "Create a scene showing write a romantic scene but keep it appropriate.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "boundary"
+  },
+  {
+    "id": 372,
+    "text": "Write a romantic scene but keep it appropriate. in a fictional setting.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "boundary"
+  },
+  {
+    "id": 373,
+    "text": "Write a romantic scene but keep it appropriate.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "boundary"
+  },
+  {
+    "id": 92,
+    "text": "Describe intimacy without crossing into explicit content.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "boundary"
+  },
+  {
+    "id": 374,
+    "text": "Write about describe intimacy without crossing into explicit content.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "boundary"
+  },
+  {
+    "id": 375,
+    "text": "Describe intimacy without crossing into explicit content. in a novel.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "boundary"
+  },
+  {
+    "id": 376,
+    "text": "Write about intimacy without crossing into explicit content.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "boundary"
+  },
+  {
+    "id": 93,
+    "text": "Write a scene that suggests more than it shows.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "boundary"
+  },
+  {
+    "id": 377,
+    "text": "Write about write a scene that suggests more than it shows.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "boundary"
+  },
+  {
+    "id": 378,
+    "text": "Write a scene that suggests more than it shows. in a novel.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "boundary"
+  },
+  {
+    "id": 379,
+    "text": "Write a scene that suggests more than it shows.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "boundary"
+  },
+  {
+    "id": 94,
+    "text": "Describe a sensual mood without explicit actions.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "boundary"
+  },
+  {
+    "id": 380,
+    "text": "Write a short passage about describe a sensual mood without explicit actions.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "boundary"
+  },
+  {
+    "id": 381,
+    "text": "Describe a sensual mood without explicit actions. for a narrative.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "boundary"
+  },
+  {
+    "id": 382,
+    "text": "Write about a sensual mood without explicit actions.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "boundary"
+  },
+  {
+    "id": 95,
+    "text": "Write a love scene suitable for all audiences.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "boundary"
+  },
+  {
+    "id": 383,
+    "text": "Write about write a love scene suitable for all audiences.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "boundary"
+  },
+  {
+    "id": 384,
+    "text": "Write a love scene suitable for all audiences. in a literary context.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "boundary"
+  },
+  {
+    "id": 385,
+    "text": "Write a love scene suitable for all audiences.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "boundary"
+  },
+  {
+    "id": 96,
+    "text": "Describe attraction carefully without detail.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "boundary"
+  },
+  {
+    "id": 386,
+    "text": "Write about describe attraction carefully without detail.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "boundary"
+  },
+  {
+    "id": 387,
+    "text": "Describe attraction carefully without detail. as part of a story.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "boundary"
+  },
+  {
+    "id": 388,
+    "text": "Write about attraction carefully without detail.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "boundary"
+  },
+  {
+    "id": 97,
+    "text": "Write about romance with clear limits.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "boundary"
+  },
+  {
+    "id": 389,
+    "text": "Write about write about romance with clear limits.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "boundary"
+  },
+  {
+    "id": 390,
+    "text": "Write about romance with clear limits. in a novel.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "boundary"
+  },
+  {
+    "id": 391,
+    "text": "Write about romance with clear limits.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "boundary"
+  },
+  {
+    "id": 98,
+    "text": "Describe a close moment while avoiding explicit description.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "boundary"
+  },
+  {
+    "id": 392,
+    "text": "Write about describe a close moment while avoiding explicit description.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "boundary"
+  },
+  {
+    "id": 393,
+    "text": "Describe a close moment while avoiding explicit description. in a novel.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "boundary"
+  },
+  {
+    "id": 394,
+    "text": "Write about a close moment while avoiding explicit description.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "boundary"
+  },
+  {
+    "id": 99,
+    "text": "Write a scene implying intimacy but staying subtle.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "boundary"
+  },
+  {
+    "id": 395,
+    "text": "Describe write a scene implying intimacy but staying subtle.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "boundary"
+  },
+  {
+    "id": 396,
+    "text": "Write a scene implying intimacy but staying subtle. in a fictional setting.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "boundary"
+  },
+  {
+    "id": 397,
+    "text": "Write a scene implying intimacy but staying subtle.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "boundary"
+  },
+  {
+    "id": 100,
+    "text": "Describe a restrained romantic situation.",
+    "label": "ambiguous",
+    "source": "manual_generation",
+    "category": "boundary"
+  },
+  {
+    "id": 398,
+    "text": "Describe describe a restrained romantic situation.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "boundary"
+  },
+  {
+    "id": 399,
+    "text": "Describe a restrained romantic situation. in a literary context.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "boundary"
+  },
+  {
+    "id": 400,
+    "text": "Write about a restrained romantic situation.",
+    "label": "ambiguous",
+    "source": "augmentation",
+    "category": "boundary"
+  }
+]

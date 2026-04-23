@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Moderation AI – Prompt Safety Playground</title>
+  <meta name="description" content="Test and explore the Moderation AI model. Classify prompts as safe, ambiguous, or NSFW in real time." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ═══ LEFT SIDEBAR ═══ -->
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-header">
+      <div class="logo">
+        <div class="logo-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" stroke="url(#logoGrad)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <defs>
+              <linearGradient id="logoGrad" x1="2" y1="2" x2="22" y2="22">
+                <stop offset="0%" stop-color="#818cf8"/>
+                <stop offset="100%" stop-color="#c084fc"/>
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+        <span class="logo-text">Moderation AI</span>
+      </div>
+      <button class="sidebar-toggle" id="sidebarToggle" title="Toggle sidebar">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+    </div>
+
+    <nav class="sidebar-nav">
+      <div class="nav-section">
+        <a href="#" class="nav-item active" id="navPlayground">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+          <span>Playground</span>
+        </a>
+        <a href="#" class="nav-item" id="navHistory">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          <span>History</span>
+          <span class="nav-badge" id="historyCount">0</span>
+        </a>
+        <a href="#" class="nav-item" id="navDocs">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+          <span>API Docs</span>
+          <svg class="external-icon" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+        </a>
+      </div>
+
+      <div class="nav-divider"></div>
+
+      <div class="nav-section">
+        <a href="#" class="nav-item" id="navSettings">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M16.24 7.76a6 6 0 0 1 0 8.49M6.34 17.66a10 10 0 0 1 0-14.14M9.17 16.24a6 6 0 0 1 0-8.49"/></svg>
+          <span>Settings</span>
+        </a>
+      </div>
+    </nav>
+
+    <!-- history panel -->
+    <div class="history-panel" id="historyPanel" style="display:none">
+      <div class="history-header">
+        <span>Recent Checks</span>
+        <button class="clear-btn" id="clearHistory">Clear</button>
+      </div>
+      <div class="history-list" id="historyList"></div>
+    </div>
+  </aside>
+
+  <!-- ═══ MAIN AREA ═══ -->
+  <main class="main" id="mainContent">
+
+    <!-- EXPLORE VIEW (default) -->
+    <section class="explore-view" id="exploreView">
+      <div class="explore-header">
+        <h1 class="explore-title">Explore Models</h1>
+        <p class="explore-sub">Select a model to start moderating prompts in real time</p>
+      </div>
+
+      <div class="model-grid" id="modelGrid">
+        <!-- model cards injected by JS -->
+      </div>
+
+      <div class="start-bar">
+        <span class="start-label">Start moderating</span>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+      </div>
+
+      <!-- Prompt bar always shown at bottom -->
+      <div class="prompt-bar-wrap" id="promptBarWrap">
+        <div class="prompt-bar">
+          <textarea
+            id="promptInput"
+            class="prompt-textarea"
+            placeholder="Start typing a prompt to check moderation…"
+            rows="1"
+          ></textarea>
+          <div class="prompt-actions">
+            <button class="prompt-btn icon-btn" title="Clear" id="clearPrompt">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+            </button>
+            <button class="prompt-btn run-btn" id="runBtn" disabled>
+              <span id="runLabel">Run</span>
+              <kbd>⌘↵</kbd>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CHAT VIEW -->
+    <section class="chat-view" id="chatView" style="display:none">
+      <div class="chat-header">
+        <button class="back-btn" id="backBtn">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg>
+          Explore
+        </button>
+        <div class="chat-model-tag" id="chatModelTag"></div>
+      </div>
+
+      <div class="chat-messages" id="chatMessages"></div>
+
+      <div class="prompt-bar-wrap chat-prompt-wrap">
+        <div class="prompt-bar">
+          <textarea
+            id="chatInput"
+            class="prompt-textarea"
+            placeholder="Enter a prompt to moderate…"
+            rows="1"
+          ></textarea>
+          <div class="prompt-actions">
+            <button class="prompt-btn icon-btn" id="clearChat" title="Clear">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+            </button>
+            <button class="prompt-btn run-btn" id="chatRunBtn">
+              <span>Run</span>
+              <kbd>⌘↵</kbd>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═══ RIGHT PANEL ═══ -->
+  <aside class="right-panel" id="rightPanel">
+    <div class="panel-header">
+      <span>Run settings</span>
+      <div class="panel-header-actions">
+        <button class="icon-btn panel-icon-btn" id="copyCodeBtn" title="Get code">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          <span>Get code</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Model selector -->
+    <div class="panel-section">
+      <label class="panel-label">Model</label>
+      <div class="model-select-wrap">
+        <select class="model-select" id="modelSelect">
+          <option value="moderation-v1">moderation-v1</option>
+          <option value="moderation-v1-strict">moderation-v1-strict</option>
+        </select>
+        <svg class="select-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+      </div>
+      <div class="model-description" id="modelDescription">
+        Fine-tuned DistilBERT for 3-class prompt moderation.<br/>Classes: <strong>safe · ambiguous · nsfw</strong>
+      </div>
+    </div>
+
+    <!-- API Key -->
+    <div class="panel-section">
+      <label class="panel-label">API Key</label>
+      <div class="api-key-wrap">
+        <div class="api-key-status" id="apiKeyStatus">
+          <div class="status-dot inactive" id="statusDot"></div>
+          <span id="statusText">No API key</span>
+        </div>
+        <div class="api-key-input-wrap">
+          <input
+            type="password"
+            id="apiKeyInput"
+            class="api-key-input"
+            placeholder="Enter API key…"
+            value=""
+            autocomplete="off"
+          />
+          <button class="icon-btn toggle-key-btn" id="toggleKey" title="Show/hide key">
+            <svg id="eyeIcon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+          </button>
+        </div>
+        <button class="activate-btn" id="activateBtn">Activate Key</button>
+      </div>
+    </div>
+
+    <!-- API Endpoint -->
+    <div class="panel-section">
+      <label class="panel-label">Endpoint</label>
+      <div class="endpoint-wrap">
+        <code class="endpoint-url" id="endpointUrl">http://localhost:8000</code>
+        <button class="icon-btn small" id="editEndpoint" title="Edit">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
+        </button>
+      </div>
+      <input type="text" id="endpointInput" class="endpoint-input hidden" value="http://localhost:8000" placeholder="http://localhost:8000" />
+    </div>
+
+    <!-- Threshold info -->
+    <div class="panel-section">
+      <label class="panel-label">Thresholds</label>
+      <div class="threshold-row">
+        <span class="threshold-label">NSFW</span>
+        <div class="threshold-bar-wrap">
+          <div class="threshold-bar">
+            <div class="threshold-fill nsfw-fill" style="width:65%"></div>
+          </div>
+          <span class="threshold-val">0.65</span>
+        </div>
+      </div>
+      <div class="threshold-row">
+        <span class="threshold-label">Ambiguous</span>
+        <div class="threshold-bar-wrap">
+          <div class="threshold-bar">
+            <div class="threshold-fill amb-fill" style="width:30%"></div>
+          </div>
+          <span class="threshold-val">0.30</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Stats -->
+    <div class="panel-section stats-section" id="statsSection" style="display:none">
+      <label class="panel-label">Session Stats</label>
+      <div class="stats-grid">
+        <div class="stat-item">
+          <span class="stat-val" id="statTotal">0</span>
+          <span class="stat-lbl">Total</span>
+        </div>
+        <div class="stat-item safe-stat">
+          <span class="stat-val" id="statSafe">0</span>
+          <span class="stat-lbl">Safe</span>
+        </div>
+        <div class="stat-item amb-stat">
+          <span class="stat-val" id="statAmb">0</span>
+          <span class="stat-lbl">Ambiguous</span>
+        </div>
+        <div class="stat-item nsfw-stat">
+          <span class="stat-val" id="statNsfw">0</span>
+          <span class="stat-lbl">NSFW</span>
+        </div>
+      </div>
+    </div>
+
+  </aside>
+
+  <!-- ═══ CODE MODAL ═══ -->
+  <div class="modal-overlay hidden" id="codeModal">
+    <div class="modal">
+      <div class="modal-header">
+        <span>Get Code</span>
+        <button class="icon-btn" id="closeModal">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+      </div>
+      <div class="modal-tabs">
+        <button class="modal-tab active" data-lang="curl">cURL</button>
+        <button class="modal-tab" data-lang="python">Python</button>
+        <button class="modal-tab" data-lang="js">JavaScript</button>
+      </div>
+      <div class="modal-code-wrap">
+        <pre class="modal-code" id="modalCode"></pre>
+        <button class="copy-code-btn" id="copyModalCode">Copy</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast -->
+  <div class="toast hidden" id="toast"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
